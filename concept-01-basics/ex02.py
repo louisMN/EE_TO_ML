@@ -1,7 +1,7 @@
 # Task: Create 4 variables — one int, one float, one str, one bool. Print each variable's value and its type using type() (e.g. 12 <class 'int'>).
 # Solution
 
-voltage = 2 #Initialize votltage
+voltage = 2 #Initialize voltage
 current = 1.5 #Initialize current
 name = "Generator" #Initialize name of equipment
 state = True #Initialize state of equipment if ON or OFF. True = ON, False = OFF.
