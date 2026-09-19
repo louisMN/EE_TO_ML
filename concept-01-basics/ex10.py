@@ -4,7 +4,7 @@ battery_capacity = int(input("Battery capacity (mAh): "))
 device_draw = int(input("Device draw: "))
 
 hours = battery_capacity // device_draw
-minutes = (((battery_capacity % device_draw) * 60)// device_draw) * 60
+minutes = (((battery_capacity % device_draw) * 60)// device_draw)
 
 print(f"Run time: {hours}h {minutes}m ")
 
