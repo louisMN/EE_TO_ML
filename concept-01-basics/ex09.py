@@ -10,5 +10,5 @@ current = vin / (r1 + r2)
 
 # Displays the output
 print("\n")
-print(f"current: {current:.2f} mA")
+print(f"current: {current * 1000:.2f} mA")
 print(f"Output Voltage (Vout): {vout:.2f} volts \n")
